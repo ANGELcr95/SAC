@@ -1,0 +1,112 @@
+#proof3{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 100%;
+    z-index: 6;
+}
+
+.presentacion3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    text-align: left;
+    padding-top: 10%;
+    color: black;
+    width: 100%;
+    z-index: 1000;
+}
+
+.presentacionCenter{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: left;
+    width: 80%;
+    z-index: 1000;
+}
+
+.presentacion3 h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: 'Fredoka One';
+    color: rgb(255,123,8);
+    text-shadow: black 3px 3px 2px;
+    padding-right: 0.3rem;
+    letter-spacing: 0.2rem;
+}
+
+.presentacion3 h3{
+    font-size: 3.5rem;
+    font-weight: 100;
+    color: rgb(255,123,8);
+    padding-right: 0.3rem;
+    margin-bottom: 0;
+}
+
+.consumidorFinanciero{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.consumidorFinanciero h4 {
+    padding-bottom:0 ;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.consumidorFinanciero img {
+    width: 18rem;
+}
+
+
+.cliente {
+    margin-right: 3%;
+    border-radius: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.clientePotencial {
+    margin-left: 3%;
+    border-radius: 2rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.usuario {
+    margin-left: 3%;
+    border-radius: 2rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .presentacion3 h2{
+        font-size: 3rem;
+    }
+    
+    .presentacion3 h3{
+        font-size: 3rem;
+
+    }
+    .consumidorFinanciero img {
+        width: 14rem;
+    }
+    .consumidorFinanciero h4 {
+        font-size: 2.5rem;
+    }
+    
+}
+    
+
+
+
+    

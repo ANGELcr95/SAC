@@ -1,0 +1,100 @@
+#start{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    z-index: 9;
+}
+
+.presentacion {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.presentacion h1{
+    color: rgb(0,128,74);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0;
+
+}
+.presentacion h2{
+    color: rgb(0,128,74);
+    font-family: 'Fredoka One';
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.presentacion h4{
+    color: rgb(51,51,51);
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+
+.presentacion p{
+    color: rgb(51,51,51);
+    font-size: 2rem;
+}
+#boxing1{
+    position: absolute;
+    width: 15rem;
+    right: -6rem;
+}
+
+#archery{
+    position: absolute;
+    width: 20rem;
+    top: 80%;
+    left: -1rem;
+}
+
+
+#basketball {
+    position: absolute;
+    width: 15rem;
+    bottom: -1rem;
+    left: -5rem;
+    animation: rebota 1s alternate infinite ease-out;
+}
+
+  @-webkit-keyframes rebota {
+    0% {
+      bottom: -1rem;
+      height: 10rem;
+    }
+    10% {
+      bottom: 5rem;
+      height: 14rem;
+    }
+    100% {
+        bottom: 18rem;
+        height: 14rem;
+    }
+  }
+.logo {
+    margin: 2rem 0 0 2rem;
+    position: absolute;
+}
+
+.logo img{
+    width: 10rem;
+}
+
+#logomargen {
+    margin-left: 1rem;
+    border-left: 1px solid black;
+    padding-left: 1rem;
+    width: 11rem;
+}
+
+#logolimpiadas {
+    width: 18rem;
+}
+
+
+
